@@ -1,0 +1,40 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fdf6ef;
+  color: #333;
+}
+.hero {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.about {
+  background-attachment: fixed;
+  color: #ffffff;
+}
+.menu img, .reviews, .contact {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+.stats h2 {
+  font-size: 3rem;
+  color: #27ae60;
+}
+footer {
+  background-color: #f5f5f5;
+}
+.reviews blockquote {
+  max-width: 700px;
+  margin: 0 auto;
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+.hero h1,
+.hero p {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.about h2,
+.about p {
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+}
